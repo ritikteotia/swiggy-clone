@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Swiggy-inspired responsive food and grocery delivery landing page">
+  <title>Swiggy | Food, Groceries & More</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#" aria-label="Swiggy home">
+        <span class="brand-mark">S</span><span>swiggy</span>
+      </a>
+      <div class="nav-links">
+        <a href="#services">Swiggy Thekkka</a>
+        <a href="#services">Lets Partner</a>
+        <a class="app-link" href="#download">Get the App <span aria-hidden="true">↗</span></a>
+        <a class="signin" href="#">Sign in</a>
+      </div>
+      <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-art hero-art-left" src="assets/hero-left.svg" alt="">
+      <div class="hero-inner">
+        <p class="eyebrow">KABHI GARH KA BHI, KHA LIYA KARO.</p>
+        <h1>Order food &amp; Alcohol.<br>Discover best Bar.<br><span>Swiggy it!</span></h1>
+        <div class="search-panel">
+          <label class="search-field location-field">
+            <span class="field-icon">⌖</span>
+            <input type="text" placeholder="Enter your delivery location" aria-label="Delivery location">
+            <span class="chevron">⌄</span>
+          </label>
+          <label class="search-field food-field">
+            <input type="search" placeholder="Search for bars, haryali or more" aria-label="Search restaurants and food">
+            <span class="field-icon">⌕</span>
+          </label>
+        </div>
+      </div>
+      <img class="hero-art hero-art-right" src="assets/alcohol-glass.svg" alt="Alcohol">
+      <div class="hero-bottom-glow"></div>
+    </section>
+
+    <section class="services section container" id="services">
+      <div class="section-heading">
+        <div><p class="kicker">ONE APP. MANY WAYS TO ENJOY.</p><h2>What are you in the mood for?</h2></div>
+        <span class="heading-line"></span>
+      </div>
+      <div class="service-grid">
+        <a class="service-card food-card" href="#">
+          <div class="service-copy"><span class="service-tag">FOOD DELIVERY</span><h3>Food<br>Delivery</h3><p>From your favourite restaurants</p><span class="round-arrow">↗</span></div>
+          <img src="assets/service-food.svg" alt="Burger, fries and drink">
+        </a>
+        <a class="service-card instamart-card" href="#">
+          <div class="service-copy"><span class="service-tag">INSTANT GROCERIES</span><h3>Instamart</h3><p>Get groceries in minutes</p><span class="round-arrow">↗</span></div>
+          <img src="assets/service-grocery.svg" alt="Grocery bag with fresh produce">
+        </a>
+        <a class="service-card dineout-card" href="#">
+          <div class="service-copy"><span class="service-tag">DINE OUT</span><h3>Dineout</h3><p>Discover great restaurants</p><span class="round-arrow">↗</span></div>
+          <img src="assets/service-dine.svg" alt="Restaurant table setting">
+        </a>
+      </div>
+    </section>
+
+    <section class="categories section container">
+      <div class="section-heading"><div><p class="kicker">A LITTLE SOMETHING FOR EVERY CRAVING</p><h2>Order our best food options</h2></div><span class="heading-line"></span></div>
+      <div class="category-grid food-categories">
+        <a class="category" href="#"><img src="assets/cat-pizza.svg" alt=""><span>Pizza</span></a>
+        <a class="category" href="#"><img src="assets/cat-burger.svg" alt=""><span>Burger</span></a>
+        <a class="category" href="#"><img src="assets/cat-biryani.svg" alt=""><span>Biryani</span></a>
+        <a class="category" href="#"><img src="assets/cat-cake.svg" alt=""><span>Cakes</span></a>
+        <a class="category" href="#"><img src="assets/cat-north.svg" alt=""><span>North Indian</span></a>
+        <a class="category" href="#"><img src="assets/cat-south.svg" alt=""><span>South Indian</span></a>
+        <a class="category" href="#"><img src="assets/cat-noodles.svg" alt=""><span>Noodles</span></a>
+        <a class="category" href="#"><img src="assets/cat-roll.svg" alt=""><span>Rolls</span></a>
+      </div>
+    </section>
+
+    <section class="instamart section">
+      <div class="container">
+        <div class="section-heading"><div><p class="kicker">YOUR DAILY ESSENTIALS, DELIVERED</p><h2>Shop groceries on Instamart</h2></div><span class="heading-line"></span></div>
+        <div class="category-grid grocery-categories">
+          <a class="category" href="#"><img src="assets/grocery-vegetables.svg" alt=""><span>Fresh Vegetables</span></a>
+          <a class="category" href="#"><img src="assets/grocery-fruits.svg" alt=""><span>Fresh Fruits</span></a>
+          <a class="category" href="#"><img src="assets/grocery-dairy.svg" alt=""><span>Dairy</span></a>
+          <a class="category" href="#"><img src="assets/grocery-munchies.svg" alt=""><span>Munchies</span></a>
+          <a class="category" href="#"><img src="assets/grocery-drinks.svg" alt=""><span>Cold Drinks</span></a>
+          <a class="category" href="#"><img src="assets/grocery-care.svg" alt=""><span>Personal Care</span></a>
+          <a class="category" href="#"><img src="assets/grocery-bakery.svg" alt=""><span>Bakery</span></a>
+          <a class="category" href="#"><img src="assets/grocery-cleaning.svg" alt=""><span>Household</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="download-strip container" id="download">
+      <div class="download-copy"><p class="kicker">YOUR FAVOURITES, JUST A TAP AWAY</p><h2>Get the Swiggy App</h2><p>Order food, shop groceries and discover restaurants with ease.</p></div>
+      <div class="download-badges"><a href="#">▶ &nbsp; Google Play</a><a href="#">● &nbsp; App Store</a></div>
+      <div class="phone-art" aria-hidden="true"><div class="phone-screen"><span class="mini-logo">swiggy.</span><div class="phone-food"></div><b>Deliciousness<br>is on the way!</b></div></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">S</span><span>swiggy</span></a><p>© 2026 Swiggy-inspired landing page</p><small>Made for good food days.</small></div>
+      <div class="footer-column"><h4>Company</h4><a href="#">About Us</a><a href="#">Swiggy Corporate</a><a href="#">Careers</a><a href="#">Team</a></div>
+      <div class="footer-column"><h4>Contact</h4><a href="#">Help &amp; Support</a><a href="#">Partner with us</a><a href="#">Ride with us</a></div>
+      <div class="footer-column"><h4>We deliver to</h4><a href="#">Bangalore</a><a href="#">Delhi</a><a href="#">Hyderabad</a><a href="#">Mumbai</a></div>
+      <div class="footer-column"><h4>Explore</h4><a href="#">Food delivery</a><a href="#">Grocery delivery</a><a href="#">Dineout</a><a href="#">Instamart</a></div>
+      <div class="footer-column social"><h4>Follow us</h4><div class="social-icons"><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="LinkedIn">in</a></div><h4 class="download-title">Get the app</h4><a class="store-badge" href="#">▶ Google Play</a><a class="store-badge" href="#">● App Store</a></div>
+    </div>
+    <div class="footer-bottom container"><span>© 2026 Swiggy-inspired UI. For educational use.</span><span>Privacy&nbsp;&nbsp; · &nbsp;&nbsp;Terms&nbsp;&nbsp; · &nbsp;&nbsp;Sitemap</span></div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180">
+  <ellipse cx="112" cy="158" rx="55" ry="9" fill="#9b5a2b" opacity=".14"/>
+  <!-- beer mug -->
+  <path d="M66 42h91v96q0 12-12 12H78q-12 0-12-12z" fill="#f6c44e" stroke="#b87526" stroke-width="6"/>
+  <path d="M157 62h20q22 0 22 23v24q0 24-23 24h-19" fill="none" stroke="#b87526" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M72 47h79v17H72z" fill="#fff1cf"/>
+  <path d="M70 49q-5-24 17-26 13-27 34-8 22-15 30 10 18 3 11 24z" fill="#fff8e6"/>
+  <path d="M85 79v43M108 79v43M132 79v43" stroke="#ffe49a" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  <path d="M80 151h68" stroke="#a96a25" stroke-width="6" stroke-linecap="round"/>
+</svg>
